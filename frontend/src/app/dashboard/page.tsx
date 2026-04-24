@@ -14,6 +14,7 @@ export default function Dashboard() {
   const [courses, setCourses] = useState<Course[]>([]);
   const [loading, setLoading] = useState(true);
   const { error, handleError } = useApiError();
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     const fetchCourses = async () => {

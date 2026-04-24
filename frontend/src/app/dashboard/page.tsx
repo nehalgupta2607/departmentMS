@@ -72,6 +72,12 @@ export default function Dashboard() {
       </div>
 
       <h2 className="text-xl font-semibold mb-4">My Courses</h2>
+      <input
+  type="text"
+  placeholder="Search courses..."
+  className="mb-6 p-2 w-full md:w-1/3 rounded border text-black"
+  onChange={(e) => setSearch(e.target.value)}
+/>
 
       {loading ? (
         <div className="flex justify-center p-12">
@@ -79,7 +85,13 @@ export default function Dashboard() {
         </div>
       ) : courses.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {courses.map((course) => (
+          {courses
+  .filter((course) =>
+    course.courseCode
+      .toLowerCase()
+      .includes(search.toLowerCase())
+  )
+  .map((course) => (
             <CourseCard
               key={course._id}
               course={{

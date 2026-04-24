@@ -15,6 +15,15 @@ The Department Management System (DMS) is designed to streamline educational ope
 
 - [Frontend Documentation](https://github.com/oyerohabib/departmentMS/blob/main/frontend/README.md)
 - [Backend Documentation](https://github.com/oyerohabib/departmentMS/blob/main/backend/README.md)
+## My Contributions
+- Set up and explored the project structure
+- Customized UI using Tailwind CSS
+- Implemented search functionality for filtering courses
+- Improved layout and responsiveness
+  
+## Features Added by Me
+- Course search functionality
+- UI enhancements using Tailwind CSS
 
 ## Core Features
 

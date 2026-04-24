@@ -14,7 +14,7 @@ export default function Home() {
                 Built for students, powered for lecturers
               </span>
               <h1 className="text-4xl md:text-6xl font-bold mt-6 mb-6 max-w-3xl">
-                Transform the way your campus communicates, teaches, and learns.
+                Department Management Dashboard
               </h1>
               <p className="text-lg md:text-xl mb-8 max-w-xl text-blue-100">
                 Campus connect brings every course, announcement, and resource

@@ -1,4 +1,4 @@
-# Department Management System
+# # Department Management Dashboard
 
 ## Overview
 
